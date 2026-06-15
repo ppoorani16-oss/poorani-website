@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Poorani – Aspiring Data Analyst | B.Tech AI & Data Science, JCT College of Engineering. Skilled in Python, SQL, Power BI, and Data Visualization." />
+  <meta name="keywords" content="Poorani, Data Analyst, Portfolio, Python, SQL, Power BI, Machine Learning, JCT College" />
+  <meta name="author" content="Poorani" />
+  <title>Poorani | Aspiring Data Analyst</title>
+
+  <!-- Google Fonts: Syne (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav class="navbar" id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Home">Poorani<span class="logo-dot">.</span></a>
+
+      <!-- Hamburger button for mobile -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home"          class="nav-link">Home</a></li>
+        <li><a href="#about"         class="nav-link">About</a></li>
+        <li><a href="#education"     class="nav-link">Education</a></li>
+        <li><a href="#skills"        class="nav-link">Skills</a></li>
+        <li><a href="#certifications"class="nav-link">Certifications</a></li>
+        <li><a href="#projects"      class="nav-link">Projects</a></li>
+        <li><a href="#achievements"  class="nav-link">Achievements</a></li>
+        <li><a href="#learning"      class="nav-link">Learning</a></li>
+        <li><a href="#resume"        class="nav-link">Resume</a></li>
+        <li><a href="#contact"       class="nav-link nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO / HOME ===================== -->
+  <section id="home" class="hero">
+    <!-- Animated background particles -->
+    <div class="hero-bg" aria-hidden="true">
+      <div class="particle p1"></div>
+      <div class="particle p2"></div>
+      <div class="particle p3"></div>
+      <div class="particle p4"></div>
+      <div class="particle p5"></div>
+      <div class="particle p6"></div>
+    </div>
+
+    <div class="hero-content">
+      <!-- Profile photo placeholder -->
+      <div class="hero-photo-wrap reveal">
+        <div class="hero-photo" aria-label="Profile photo of Poorani">
+  <img src="images/myphoto.jpg" alt="Your Name" class="profile-image">
+</div>
+      </div>
+
+      <div class="hero-text">
+        <p class="hero-eyebrow reveal-delay-1">Hello, I'm</p>
+        <h1 class="hero-name reveal-delay-2">Poorani</h1>
+        <h2 class="hero-title reveal-delay-3">
+          Aspiring <span class="highlight">Data Analyst</span>
+        </h2>
+        <p class="hero-intro reveal-delay-4">
+  Turning Data into Insights and AI into Solutions.
+  <br><br>
+  B.Tech student in Artificial Intelligence &amp; Data Science at JCT College of Engineering.
+  I transform raw data into actionable insights using Python, SQL, Power BI, and Machine Learning.
+</p>
+        <div class="hero-btns reveal-delay-5">
+          <a href="#resume"  class="btn btn-primary">Download Resume</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <!-- Quick stat strip -->
+        <div class="hero-stats reveal-delay-5" aria-label="Quick stats">
+          <div class="stat">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-number">7+</span>
+            <span class="stat-label">Tech Skills</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data-wave SVG separator — the signature element -->
+    <div class="wave-separator" aria-hidden="true">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C180,80 360,0 540,40 C720,80 900,0 1080,40 C1260,80 1380,20 1440,40 L1440,80 L0,80 Z" fill="#F8FAFF"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: portrait card -->
+        <div class="about-portrait reveal">
+          <div class="portrait-card">
+            <div class="portrait-img-placeholder" aria-label="Poorani's portrait">
+              <span>P</span>
+            </div>
+            <div class="portrait-badge">
+              <span>🎓</span> B.Tech AI &amp; DS
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: text -->
+        <div class="about-content reveal-right">
+          <h3 class="about-subtitle">Turning Data into Decisions</h3>
+          <p class="about-para">
+            I'm <strong>Poorani</strong>, a passionate B.Tech student specialising in
+            <strong>Artificial Intelligence and Data Science</strong> at
+            <strong>JCT College of Engineering</strong>. My academic journey has given me a
+            solid foundation in statistical thinking, algorithmic design, and real-world data
+            problem solving.
+          </p>
+          <p class="about-para">
+            My goal is to launch a career as a <strong>Data Analyst</strong> where I can
+            leverage tools like <strong>Python, SQL, Power BI, and Tableau</strong> to uncover
+            patterns that drive better business outcomes. I believe every dataset tells a
+            story — and I'm here to narrate it clearly.
+          </p>
+          <p class="about-para">
+            Outside coursework, I participate in workshops, data competitions, and
+            self-paced certifications to keep sharpening my skills. I thrive in team
+            environments, enjoy communicating insights to non-technical stakeholders, and
+            approach every problem with curiosity and precision.
+          </p>
+
+          <!-- Interests tags -->
+          <div class="about-tags" aria-label="Interests">
+            <span class="tag">📊 Data Analytics</span>
+            <span class="tag">🐍 Python</span>
+            <span class="tag">🗄️ SQL</span>
+            <span class="tag">📈 Power BI</span>
+            <span class="tag">🤖 Machine Learning</span>
+            <span class="tag">🗂️ Excel</span>
+            <span class="tag">📉 Tableau</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Wave separator -->
+    <div class="wave-separator wave-blue" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" fill="#EEF3FF"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+ <!-- Timeline item 1 -->
+<div class="timeline-item reveal" role="listitem">
+  <div class="timeline-marker" aria-hidden="true">
+    <span class="marker-icon">🎓</span>
+  </div>
+  <div class="timeline-card">
+    <div class="tc-header">
+      <span class="tc-year">2023 – 2027</span>
+      <span class="tc-status">Current</span>
+    </div>
+    <h3 class="tc-degree">B.Tech – Artificial Intelligence &amp; Data Science</h3>
+    <p class="tc-college">JCT College of Engineering and Technology</p>
+    <p class="tc-location">📍 Coimbatore, Tamil Nadu</p>
+
+    <ul class="tc-highlights">
+      <li>Core focus: AI Algorithms, Data Structures, Statistical Modelling</li>
+      <li>Relevant coursework: Machine Learning, Data Mining, Database Systems</li>
+      <li>Active participant in department tech fests and data challenges</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Timeline item 2 -->
+<div class="timeline-item reveal" role="listitem">
+  <div class="timeline-marker" aria-hidden="true">
+    <span class="marker-icon">📚</span>
+  </div>
+  <div class="timeline-card">
+    <div class="tc-header">
+      <span class="tc-year">Up to 2021</span>
+      <span class="tc-status completed">Completed</span>
+    </div>
+
+    <h3 class="tc-degree">Secondary Education (10th Grade)</h3>
+    <p class="tc-college">Mount Zion Academy</p>
+    <p class="tc-location">📍 Batlagundu</p>
+  </div>
+</div>
+
+<!-- Timeline item 3 -->
+<div class="timeline-item reveal" role="listitem">
+  <div class="timeline-marker" aria-hidden="true">
+    <span class="marker-icon">🏫</span>
+  </div>
+  <div class="timeline-card">
+    <div class="tc-header">
+      <span class="tc-year">2023</span>
+      <span class="tc-status completed">Completed</span>
+    </div>
+
+    <h3 class="tc-degree">Higher Secondary Education (12th Grade)</h3>
+    <p class="tc-college">SSM Academy</p>
+    <p class="tc-location">📍 Dindigul</p>
+
+    <ul class="tc-highlights">
+      <li>Science stream with Mathematics</li>
+      <li>Strong academic foundation that led to engineering admission</li>
+    </ul>
+  </div>
+</div>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">What I Work With</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <!-- Technical skills column -->
+        <div class="skills-col reveal">
+          <h3 class="skills-col-title">Technical Skills</h3>
+
+          <div class="skill-cards">
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon">🐍</span>
+                <span class="skill-name">Python</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" data-width="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon">🗄️</span>
+                <span class="skill-name">SQL</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" data-width="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon">📊</span>
+                <span class="skill-name">Excel</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" data-width="88"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon">📈</span>
+                <span class="skill-name">Power BI</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" data-width="75"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon">📉</span>
+                <span class="skill-name">Tableau</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" data-width="70"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon">🤖</span>
+                <span class="skill-name">Machine Learning</span>
+                <span class="skill-pct">72%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" data-width="72"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-card-top">
+                <span class="skill-icon">📡</span>
+                <span class="skill-name">Data Visualization</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-fill" data-width="82"></div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- /technical col -->
+
+        <!-- Soft skills column -->
+        <div class="skills-col reveal-right">
+          <h3 class="skills-col-title">Soft Skills</h3>
+
+          <div class="soft-skills-grid">
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">💬</div>
+              <span class="soft-name">Communication</span>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">🤝</div>
+              <span class="soft-name">Teamwork</span>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">🧩</div>
+              <span class="soft-name">Problem Solving</span>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">🏆</div>
+              <span class="soft-name">Leadership</span>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">🔍</div>
+              <span class="soft-name">Attention to Detail</span>
+            </div>
+            <div class="soft-card">
+              <div class="soft-icon" aria-hidden="true">📅</div>
+              <span class="soft-name">Time Management</span>
+            </div>
+          </div>
+
+          <!-- Tool bubbles -->
+          <h3 class="skills-col-title" style="margin-top:2rem;">Tools &amp; Technologies</h3>
+          <div class="tool-bubbles">
+            <span class="bubble">Python</span>
+            <span class="bubble">Pandas</span>
+            <span class="bubble">NumPy</span>
+            <span class="bubble">Matplotlib</span>
+            <span class="bubble">Seaborn</span>
+            <span class="bubble">Scikit-learn</span>
+            <span class="bubble">MySQL</span>
+            <span class="bubble">Power BI</span>
+            <span class="bubble">Tableau</span>
+            <span class="bubble">MS Excel</span>
+            <span class="bubble">Jupyter</span>
+            <span class="bubble">Google Colab</span>
+            <span class="bubble">VS Code</span>
+            <span class="bubble">GitHub</span>
+          </div>
+        </div>
+
+      </div><!-- /skills-grid -->
+    </div>
+
+    <div class="wave-separator wave-blue2" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C180,0 360,60 540,30 C720,0 900,60 1080,30 C1260,0 1380,50 1440,30 L1440,60 L0,60 Z" fill="#EEF3FF"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATIONS ===================== -->
+  <section id="certifications" class="section certs-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+      </div>
+
+     <div class="certs-grid">
+
+  <!-- Internship -->
+  <div class="cert-card reveal">
+    <div class="cert-img-placeholder">
+      <span class="cert-img-icon">🤖</span>
+    </div>
+    <div class="cert-body">
+      <span class="cert-issuer">Internship</span>
+      <h3 class="cert-title">Artificial Intelligence Internship</h3>
+      <p class="cert-desc">
+        Successfully completed internship training in Artificial Intelligence and practical AI applications.
+      </p>
+      <div class="cert-footer">
+        <span class="cert-year">2025</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Internship -->
+  <div class="cert-card reveal">
+    <div class="cert-img-placeholder">
+      <span class="cert-img-icon">📊</span>
+    </div>
+    <div class="cert-body">
+      <span class="cert-issuer">Internship</span>
+      <h3 class="cert-title">Data Analyst Internship</h3>
+      <p class="cert-desc">
+        Gained practical experience in data analysis, reporting, visualization and business insights.
+      </p>
+      <div class="cert-footer">
+        <span class="cert-year">2025</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Internship -->
+  <div class="cert-card reveal">
+    <div class="cert-img-placeholder">
+      <span class="cert-img-icon">✨</span>
+    </div>
+    <div class="cert-body">
+      <span class="cert-issuer">Internship</span>
+      <h3 class="cert-title">Generative AI Internship</h3>
+      <p class="cert-desc">
+        Worked on Generative AI concepts, prompt engineering and AI-powered solutions.
+      </p>
+      <div class="cert-footer">
+        <span class="cert-year">2026</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NPTEL -->
+  <div class="cert-card reveal">
+    <div class="cert-img-placeholder">
+      <span class="cert-img-icon">☁️</span>
+    </div>
+    <div class="cert-body">
+      <span class="cert-issuer">NPTEL</span>
+      <h3 class="cert-title">Cloud Computing (Elite)</h3>
+      <p class="cert-desc">
+        Earned Elite certification demonstrating strong understanding of cloud computing concepts and services.
+      </p>
+    </div>
+  </div>
+
+  <!-- NPTEL -->
+  <div class="cert-card reveal">
+    <div class="cert-img-placeholder">
+      <span class="cert-img-icon">🔒</span>
+    </div>
+    <div class="cert-body">
+      <span class="cert-issuer">NPTEL</span>
+      <h3 class="cert-title">Network Security (Elite)</h3>
+      <p class="cert-desc">
+        Earned Elite certification covering cybersecurity fundamentals, secure networking and threat protection.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Real-World Work</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+      
+
+  <!-- Project 1 -->
+  <div class="project-card reveal">
+    <div class="project-img-placeholder">
+      <span class="project-img-icon">😊</span>
+      <span class="project-img-label">Emotion Detection</span>
+    </div>
+
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="ptag">Python</span>
+        <span class="ptag">Pandas</span>
+        <span class="ptag">NumPy</span>
+        <span class="ptag">Scikit-Learn</span>
+        <span class="ptag">Machine Learning</span>
+      </div>
+
+      <h3 class="project-title">Emotion Detection System</h3>
+
+      <p class="project-desc">
+        Built a Machine Learning model to classify human emotions from data.
+        Performed data preprocessing, feature extraction, model training,
+        and emotion prediction.
+      </p>
+
+      <a href="#" class="btn btn-sm">View Project →</a>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-card reveal">
+    <div class="project-img-placeholder accent2">
+      <span class="project-img-icon">🎤</span>
+      <span class="project-img-label">Voice Food Ordering</span>
+    </div>
+
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="ptag">Python</span>
+        <span class="ptag">pyttsx3</span>
+        <span class="ptag">Speech Recognition</span>
+        <span class="ptag">Data Analysis</span>
+      </div>
+
+      <h3 class="project-title">Voice-Enabled Food Ordering System</h3>
+
+      <p class="project-desc">
+        Developed a Python-based voice-enabled food ordering application with
+        menu selection, voice confirmation, and basic order data analysis.
+      </p>
+
+      <a href="#" class="btn btn-sm">View Project →</a>
+    </div>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card reveal">
+    <div class="project-img-placeholder accent3">
+      <span class="project-img-icon">🏧</span>
+      <span class="project-img-label">ATM Assistant</span>
+    </div>
+
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="ptag">Python</span>
+        <span class="ptag">Speech Recognition</span>
+        <span class="ptag">Text-to-Speech</span>
+        <span class="ptag">UI Design</span>
+      </div>
+
+      <h3 class="project-title">ATM Voice Assistance System</h3>
+
+      <p class="project-desc">
+        Designed a voice-assisted ATM system that helps users perform banking
+        operations using voice guidance and accessibility features.
+      </p>
+
+      <a href="#" class="btn btn-sm">View Project →</a>
+    </div>
+  </div>
+
+  <!-- Project 4 -->
+  <div class="project-card reveal">
+    <div class="project-img-placeholder">
+      <span class="project-img-icon">👥</span>
+      <span class="project-img-label">HR Automation</span>
+    </div>
+
+    <div class="project-body">
+      <div class="project-tags">
+        <span class="ptag">Slack</span>
+        <span class="ptag">MCP</span>
+        <span class="ptag">Twilio</span>
+        <span class="ptag">AI Automation</span>
+      </div>
+
+      <h3 class="project-title">Employment Engagement and Its Operation</h3>
+
+      <p class="project-desc">
+        Developed an AI-powered employee engagement system that reduces HR
+        workflow effort and automates employee information handling, notifications,
+        and operational processes through intelligent triggers.
+      </p>
+
+      <a href="#" class="btn btn-sm">View Project →</a>
+    </div>
+  </div>
+
+</div>
+
+  <!-- ===================== ACHIEVEMENTS ===================== -->
+  <section id="achievements" class="section achievements-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Milestones</span>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+
+      <div class="achievements-grid">
+
+  <div class="ach-card reveal">
+    <div class="ach-icon">🤖</div>
+    <div class="ach-body">
+      <h3 class="ach-title">Artificial Intelligence Internship Completed</h3>
+      <p class="ach-desc">
+        Successfully completed an Artificial Intelligence Internship and gained practical AI experience.
+      </p>
+    </div>
+  </div>
+
+  <div class="ach-card reveal">
+    <div class="ach-icon">😊</div>
+    <div class="ach-body">
+      <h3 class="ach-title">Emotion Detection System</h3>
+      <p class="ach-desc">
+        Built an Emotion Detection System using Machine Learning techniques for emotion classification.
+      </p>
+    </div>
+  </div>
+
+  <div class="ach-card reveal">
+    <div class="ach-icon">🎤</div>
+    <div class="ach-body">
+      <h3 class="ach-title">Voice-Enabled Food Ordering System</h3>
+      <p class="ach-desc">
+        Developed a voice-enabled food ordering application with speech interaction capabilities.
+      </p>
+    </div>
+  </div>
+
+  <div class="ach-card reveal">
+    <div class="ach-icon">☁️</div>
+    <div class="ach-body">
+      <h3 class="ach-title">Cloud Computing (Elite)</h3>
+      <p class="ach-desc">
+        Earned Elite Certification in Cloud Computing through NPTEL.
+      </p>
+    </div>
+  </div>
+
+  <div class="ach-card reveal">
+    <div class="ach-icon">🔒</div>
+    <div class="ach-body">
+      <h3 class="ach-title">Network Security (Elite)</h3>
+      <p class="ach-desc">
+        Earned Elite Certification in Network Security through NPTEL.
+      </p>
+    </div>
+  </div>
+
+  <div class="ach-card reveal">
+    <div class="ach-icon">📈</div>
+    <div class="ach-body">
+      <h3 class="ach-title">Continuous Learning Journey</h3>
+      <p class="ach-desc">
+        Continuously learning Data Analytics, SQL, Power BI and Machine Learning to enhance professional expertise.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+  <!-- ===================== LEARNING JOURNEY ===================== -->
+  <section id="learning" class="section learning-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Growth Tracker</span>
+        <h2 class="section-title">Learning Journey</h2>
+        <p class="section-subtext">My ongoing progress across key data analytics competencies.</p>
+      </div>
+
+      <div class="learning-grid">
+
+        <div class="learning-item reveal">
+          <div class="learning-meta">
+            <span class="learning-topic">Data Wrangling &amp; EDA</span>
+            <span class="learning-pct">90%</span>
+          </div>
+          <div class="progress-bar lg" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-fill" data-width="90"></div>
+          </div>
+          <p class="learning-note">Pandas, NumPy, Matplotlib, Seaborn</p>
+        </div>
+
+        <div class="learning-item reveal">
+          <div class="learning-meta">
+            <span class="learning-topic">SQL &amp; Database Querying</span>
+            <span class="learning-pct">82%</span>
+          </div>
+          <div class="progress-bar lg" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-fill" data-width="82"></div>
+          </div>
+          <p class="learning-note">MySQL, PostgreSQL, advanced joins &amp; window functions</p>
+        </div>
+
+        <div class="learning-item reveal">
+          <div class="learning-meta">
+            <span class="learning-topic">Business Intelligence &amp; Dashboards</span>
+            <span class="learning-pct">78%</span>
+          </div>
+          <div class="progress-bar lg" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-fill" data-width="78"></div>
+          </div>
+          <p class="learning-note">Power BI, Tableau, DAX, calculated fields</p>
+        </div>
+
+        <div class="learning-item reveal">
+          <div class="learning-meta">
+            <span class="learning-topic">Machine Learning</span>
+            <span class="learning-pct">72%</span>
+          </div>
+          <div class="progress-bar lg" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-fill" data-width="72"></div>
+          </div>
+          <p class="learning-note">Scikit-learn, regression, classification, clustering</p>
+        </div>
+
+        <div class="learning-item reveal">
+          <div class="learning-meta">
+            <span class="learning-topic">Statistical Analysis</span>
+            <span class="learning-pct">80%</span>
+          </div>
+          <div class="progress-bar lg" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-fill" data-width="80"></div>
+          </div>
+          <p class="learning-note">Hypothesis testing, distributions, probability</p>
+        </div>
+
+        <div class="learning-item reveal">
+          <div class="learning-meta">
+            <span class="learning-topic">Data Storytelling</span>
+            <span class="learning-pct">85%</span>
+          </div>
+          <div class="progress-bar lg" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress-fill" data-width="85"></div>
+          </div>
+          <p class="learning-note">Chart selection, narrative design, stakeholder presentations</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="wave-separator wave-blue" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,30 C180,60 360,10 540,40 C720,70 900,10 1080,40 C1260,70 1380,20 1440,30 L1440,60 L0,60 Z" fill="#EEF3FF"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===================== RESUME ===================== -->
+  <section id="resume" class="section resume-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Professional Document</span>
+        <h2 class="section-title">Resume</h2>
+      </div>
+
+      <div class="resume-wrapper reveal">
+        <!-- Resume preview card -->
+        <div class="resume-preview-card" aria-label="Resume preview">
+          <div class="resume-preview-header">
+            <div class="rp-name">Poorani</div>
+            <div class="rp-title">Aspiring Data Analyst</div>
+            <div class="rp-contact-row">
+              <span>poorani@email.com</span>
+              <span>|</span>
+              <span>LinkedIn</span>
+              <span>|</span>
+              <span>GitHub</span>
+            </div>
+          </div>
+          <div class="resume-preview-body">
+            <div class="rp-section">
+              <div class="rp-section-title">Education</div>
+              <div class="rp-line"></div>
+              <div class="rp-entry">B.Tech – AI &amp; Data Science · JCT College of Engineering · 2021–2025</div>
+            </div>
+            <div class="rp-section">
+              <div class="rp-section-title">Skills</div>
+              <div class="rp-line"></div>
+              <div class="rp-entry">Python · SQL · Excel · Power BI · Tableau · ML · Data Visualization</div>
+            </div>
+            <div class="rp-section">
+              <div class="rp-section-title">Projects</div>
+              <div class="rp-line"></div>
+              <div class="rp-entry">Superstore Sales Analysis · Student Performance Analysis · LMS Issue Tracking Dashboard</div>
+            </div>
+            <div class="rp-section">
+              <div class="rp-section-title">Certifications</div>
+              <div class="rp-line"></div>
+              <div class="rp-entry">Google Data Analytics · Power BI PL-300 · Python for Data Science · SQL Advanced · ML with Python</div>
+            </div>
+          </div>
+          <div class="resume-preview-blur" aria-hidden="true">
+            <span>Full resume available for download</span>
+          </div>
+        </div>
+
+        <!-- Download CTA -->
+        <div class="resume-cta">
+          <p class="resume-cta-text">Get a full, formatted copy of my resume to learn more about my experience and qualifications.</p>
+          <a href="#" class="btn btn-primary btn-lg" download>
+            ⬇ Download Resume (PDF)
+          </a>
+          <p class="resume-note">Updated: January 2025</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wave-separator wave-light" aria-hidden="true">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,0 720,60 1080,20 C1260,0 1380,50 1440,30 L1440,60 L0,60 Z" fill="#F8FAFF"/>
+      </svg>
+    </div>
+  </section>
+
+  
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Get in Touch</span>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtext">Open to internship opportunities, collaborations, and data projects. Let's connect!</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact info -->
+        <div class="contact-info reveal">
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📧</span>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:poorani@email.com" class="contact-value">poorani@email.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">💼</span>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="contact-value">linkedin.com/in/poorani</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">🐱</span>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/poorani</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📍</span>
+            <div>
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Tamil Nadu, India</span>
+            </div>
+          </div>
+
+          <!-- Social icons row -->
+          <div class="contact-social" aria-label="Social links">
+            <a href="#" class="social-btn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="mailto:poorani@email.com" class="social-btn" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <form class="contact-form reveal-right" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="cf-name" class="form-label">Your Name</label>
+            <input type="text" id="cf-name" name="name" class="form-input" placeholder="e.g. Priya Sharma" required />
+            <span class="form-error" id="err-name"></span>
+          </div>
+          <div class="form-group">
+            <label for="cf-email" class="form-label">Email Address</label>
+            <input type="email" id="cf-email" name="email" class="form-input" placeholder="you@email.com" required />
+            <span class="form-error" id="err-email"></span>
+          </div>
+          <div class="form-group">
+            <label for="cf-subject" class="form-label">Subject</label>
+            <input type="text" id="cf-subject" name="subject" class="form-input" placeholder="Internship Opportunity / Collaboration" required />
+            <span class="form-error" id="err-subject"></span>
+          </div>
+          <div class="form-group">
+            <label for="cf-message" class="form-label">Message</label>
+            <textarea id="cf-message" name="message" class="form-input form-textarea" rows="5" placeholder="Write your message here..." required></textarea>
+            <span class="form-error" id="err-message"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span id="btn-text">Send Message ✉</span>
+          </button>
+          <div class="form-success" id="formSuccess" aria-live="polite">
+            ✅ Message sent! I'll get back to you soon.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">Poorani<span class="logo-dot">.</span></span>
+          <p class="footer-tagline">Aspiring Data Analyst · Turning data into decisions</p>
+        </div>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="#" class="social-btn" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="mailto:poorani@email.com" class="social-btn" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Poorani. All rights reserved.</p>
+        <p>Built with 💙 using HTML, CSS &amp; JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
